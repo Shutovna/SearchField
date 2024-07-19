@@ -1,0 +1,30 @@
+.search-box {
+    display: flex;
+}
+
+.search-box__text {
+    align-items: flex-start;
+    margin: 0;
+    margin-right: 20px;
+}
+
+.search-box__search-input {
+    width: 500px;
+}
+
+.search-box__search-popup {
+    width: 500px;
+    background-color: aquamarine;
+    margin: 0 auto;
+    border: black 1px solid;
+    display: none;
+}
+
+.search-box__search-item {
+    width: 500px;
+    border: black 1px solid;
+}
+
+.search-result {
+    font-size: 18px;
+}
